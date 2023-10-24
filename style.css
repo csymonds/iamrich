@@ -1,0 +1,32 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.app-row {
+    position: relative;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+  /* "image" */
+.img {
+    background-color: #aaa;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    min-width: 350px;
+    max-width: 600px;
+  }
+
+  
