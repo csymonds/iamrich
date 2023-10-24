@@ -14,7 +14,7 @@ async def plugin_logo():
 
 @app.get("/iamrich")
 async def get_rich():
-    return quart.Response("![I am rich](http://www.cjsymonds.com/iar/iamrich.jpg)", mimetype="text/json")
+    return quart.Response("![I am rich](https://iamrich--eviltwinv.repl.co/iamrich.jpg)", mimetype="text/json")
 
 @app.get("/.well-known/ai-plugin.json")
 async def plugin_manifest():
