@@ -12,6 +12,10 @@ async def plugin_logo():
     filename = 'iamrich.jpg'
     return await quart.send_file(filename, mimetype='image/jpg')
 
+@app.route('/legal')
+async def legal():
+  return await quart.send_file('legal.html', mimetype='text/html')
+
 @app.get("/iamrich")
 async def get_rich():
     return quart.Response("![I am rich](https://iamrich--eviltwinv.repl.co/iamrich.jpg)", mimetype="text/json")
